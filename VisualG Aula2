@@ -24,8 +24,8 @@ s <-(n1+n2)
 escreva("a soma dos numeros ",n1," +",n2," são igual á: ",s)
 
 se s mod 2 = 0 entao
-se  s = 24 entao
-escreva(". hmmm boiola. ")
+se  s = 20 entao
+escreva(". Meu numero da sorte! ")
 senao
 escreva(". a soma dos numeros é par. ")
 fimse
