@@ -1,0 +1,38 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 21/01/2024
+Var
+// Seção de Declarações das variáveis
+nome:caracter
+n1,n2:Inteiro
+s:real
+potencia:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+escreva("boa noite, nos informe seu nome: ")
+leia(nome)
+escreva("é um prazer conhece-lo, ", nome, ". escolha um numero: ")
+Leia(n1)
+escreva("escolha outro numero para saber a soma com ", n1,": ")
+leia(n2)
+s <-(n1+n2)
+escreva("a soma dos numeros ",n1," +",n2," são igual á: ",s)
+
+se s mod 2 = 0 entao
+se  s = 24 entao
+escreva(". hmmm boiola. ")
+senao
+escreva(". a soma dos numeros é par. ")
+fimse
+senao
+escreva(". a soma dos numeros é impar. ")
+fimse
+
+potencia<-exp(s, 5)
+escreva("e o seu numero potencializado a 5 potencia vira", potencia)
+Fimalgoritmo
